@@ -14,7 +14,7 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter A Title')
+                console.log('Please Enter A Title.')
                 return false;
             }
         }
@@ -28,7 +28,7 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter A Description')
+                console.log('Please Enter A Description.')
                 return false;
             }
         }
@@ -42,7 +42,7 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter The Installation Instructions')
+                console.log('Please Enter The Installation Instructions.')
                 return false;
             }
         }
@@ -56,7 +56,7 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter The Usage Instructions')
+                console.log('Please Enter The Usage Instructions.')
                 return false;
             }
         }
@@ -70,7 +70,7 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter The Contribution Guidelines')
+                console.log('Please Enter The Contribution Guidelines.')
                 return false;
             }
         }
@@ -84,7 +84,51 @@ const questions = [
                 return true;
             }
             else {
-                console.log('Please Enter The Test Instructions')
+                console.log('Please Enter The Test Instructions.')
+                return false;
+            }
+        }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message:'Choose The License(s) You Want Your Project To Have.',
+        choices: ['MIT', 'GPL', 'CC--0', 'GNU'],
+        default: ['MIT'],
+        validate: licenseInput => {
+            if (licenseInput) {
+                return true;
+            }
+            else {
+                console.log('Please Choose A License.')
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message:'Enter Your GitHub Username.',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            }
+            else {
+                console.log('Please Your GitHub Username.')
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message:'Enter Your Email Address.',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            }
+            else {
+                console.log('Please Enter Your Email Address.')
                 return false;
             }
         }
