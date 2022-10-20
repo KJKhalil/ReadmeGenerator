@@ -1,6 +1,6 @@
 # README Generator
 
-  ![License](https://img.shields.io/badge/License-${data.license}-red.svg)
+  ![License](https://img.shields.io/badge/License-MIT-red.svg)
 
   ## Table Of Contents
   * [Description](#description)
@@ -18,7 +18,7 @@
   You need to install inquirer as well as node to run this through the terminal.
 
   ## Usage
-  Run the index.js  file through the terminal using node index.js.
+  Run the index.js file through the terminal using node index.js.
 
   ## Contribution
   N/A

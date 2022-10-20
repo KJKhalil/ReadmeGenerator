@@ -1,13 +1,4 @@
 const fs = require('fs');
-// Creates a function to put the license(s) badges at the top of the README file.
-function renderLicenseBadge(license) {
-  if (!license) {
-    return '';
-  }
-  else {
-    return '![License](https://img.shields.io/badge/License-${data.license}-red.svg)'
-  }
-}
 
 // Creates a function to return the links of the licenses chosen.
 function renderLicenseLink(license) {
@@ -42,7 +33,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+  ![License](https://img.shields.io/badge/License-${data.license}-red.svg)
 
   ## Table Of Contents
   * [Description](#description)
