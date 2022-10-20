@@ -12,13 +12,13 @@
   * [Question(s)](#questions)
 
   ## Description
-  This project/app creates a professional and clean README file using user inputs. 
+  This project/app creates a professional and clean README file using user inputs.
 
   ## Installation
-  You need to install inquirer as well as node.
+  You need to install inquirer as well as node to run this through the terminal.
 
   ## Usage
-  Run the file through the terminal using node index.js.
+  Run the index.js  file through the terminal using node index.js.
 
   ## Contribution
   N/A
