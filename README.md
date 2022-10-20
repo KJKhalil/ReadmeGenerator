@@ -31,5 +31,5 @@
 
   ## Question(s)
   If you have any questions about this project you can reach me at:
-  GitHub: https://github.com/KJKhalil
-  Email: khalil.j.khalil@hotmail.com
+  * GitHub: https://github.com/KJKhalil
+  * Email: khalil.j.khalil@hotmail.com
