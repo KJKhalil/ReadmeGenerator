@@ -93,7 +93,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message:'Choose The License(s) You Want Your Project To Have.',
-        choices: ['MIT', 'CC--0', 'GNU'],
+        choices: ['MIT', 'CC--0', 'GNU', 'ISC'],
         default: ['MIT'],
         validate: licenseInput => {
             if (licenseInput) {
