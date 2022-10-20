@@ -1,6 +1,6 @@
 # README Generator
 
-  [!${license} license](https://img.shields.io/badge/License-${license}-red.svg)]($renderLicenseLink(license)})
+  ![License](https://img.shields.io/badge/License-${data.license}-red.svg)
 
   ## Table Of Contents
   * [Description](#description)

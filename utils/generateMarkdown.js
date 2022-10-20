@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return '';
   }
   else {
-    return '[!${license} license](https://img.shields.io/badge/License-${license}-red.svg)]($renderLicenseLink(license)})'
+    return '![License](https://img.shields.io/badge/License-${data.license}-red.svg)'
   }
 }
 
