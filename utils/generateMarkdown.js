@@ -1,6 +1,5 @@
 const fs = require('fs');
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Creates a function to put the license(s) badges at the top of the README file.
 function renderLicenseBadge(license) {
   if (!license) {
     return '';
@@ -10,8 +9,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Creates a function to return the links of the licenses chosen.
 function renderLicenseLink(license) {
   if (license === 'MIT') {
     return 'https://opensource.org/licenses/MIT'
@@ -30,8 +28,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Creates a ## License(s) section in the README file.
 function renderLicenseSection(license) {
   if (!license) {
     return '';
@@ -41,7 +38,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Creates the lay out of the README file for generateMarkdown.js.
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -53,7 +50,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [Test](#test)
-  * [License(s)](#license)
+  * [License(s)](#licenses)
   * [Question(s)](#questions)
 
   ## Description
