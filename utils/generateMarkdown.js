@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
     return '';
   }
   else {
-    return '## License(s)'
+    return '## License'
   }
 }
 
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [Test](#test)
-  * [License(s)](#licenses)
+  * [License](#license)
   * [Question(s)](#questions)
 
   ## Description
